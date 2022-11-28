@@ -7,7 +7,7 @@ import highcharts3d from 'highcharts/highcharts-3d';
 highcharts3d(Highcharts);
 const chartOptions = {
   chart: {
-    type: 'column',
+    type: 'area',
     options3d: {
       enabled: true,
     },
